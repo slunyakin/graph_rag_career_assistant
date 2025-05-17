@@ -1,0 +1,18 @@
+Graph Representation
+	1.	Nodes:
+	•	Role: Data Engineer, Data Analyst, BI Engineer, Machine Learning Engineer
+	•	Levels: Junior, Intermediate, Senior, Principal. Some levels are only applicable for some roles. e.g. only Data Engineer role can have Principal level.
+	•	Responsibilities: Defined per level. Unique for each role but may overlap.
+	•	Core Principles: Common guiding values. Shared across levels.
+	•	Skills: Some shared (e.g., SQL, Python), some role-specific. Mapped to each level.
+	•	Communication: Who they interact with. Defines stakeholders.
+	•	Impact: The scale and effect of their work. Highlights contribution scale
+
+	2.	Edges:
+	•	“includes_level”: Links the role to levels.
+	•	“requires”: Links levels to responsibilities and skills.
+	•	“follows_principle”: Links the role to core principles.
+	•	“communicates_with”: Links levels to communication scope.
+	•	“impacts”: Links levels to impacts.
+
+The graph aids in analyzing skill gaps, designing mentoring paths, and guiding career growth effectively. 

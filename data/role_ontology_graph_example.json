@@ -1,0 +1,89 @@
+{
+    "nodes": [
+      {"id": "1", "label": "Role", "name": "Data Engineer"},
+      {"id": "2", "label": "Role", "name": "Data Analyst"},
+      {"id": "3", "label": "Role", "name": "BI Engineer"},
+      
+      {"id": "4", "label": "Level", "name": "Junior"},
+      {"id": "5", "label": "Level", "name": "Intermediate"},
+      {"id": "6", "label": "Level", "name": "Senior"},
+      {"id": "7", "label": "Level", "name": "Principal"},
+  
+      {"id": "8", "label": "Responsibilities", "name": "Data Pipeline Development"},
+      {"id": "9", "label": "Responsibilities", "name": "Data Modeling and Optimization"},
+      {"id": "10", "label": "Responsibilities", "name": "BI Dashboard Development"},
+      {"id": "11", "label": "Responsibilities", "name": "Data Visualization"},
+      {"id": "12", "label": "Responsibilities", "name": "Business Reporting"},
+      {"id": "13", "label": "Responsibilities", "name": "Advanced Analytics"},
+  
+      {"id": "14", "label": "Core Principle", "name": "Data Quality and Integrity"},
+      {"id": "15", "label": "Core Principle", "name": "Scalability"},
+      {"id": "16", "label": "Core Principle", "name": "Actionable Insights"},
+  
+      {"id": "17", "label": "Skill", "name": "Python"},
+      {"id": "18", "label": "Skill", "name": "SQL"},
+      {"id": "19", "label": "Skill", "name": "Power BI"},
+      {"id": "20", "label": "Skill", "name": "Tableau"},
+      {"id": "21", "label": "Skill", "name": "Data Warehousing"},
+      {"id": "22", "label": "Skill", "name": "ETL Processes"},
+      {"id": "23", "label": "Skill", "name": "Statistics"},
+      {"id": "24", "label": "Skill", "name": "Machine Learning"},
+  
+      {"id": "25", "label": "Scope of Communication", "name": "Engineering Teams"},
+      {"id": "26", "label": "Scope of Communication", "name": "Business Stakeholders"},
+      {"id": "27", "label": "Scope of Communication", "name": "Executive Leadership"},
+  
+      {"id": "28", "label": "Impact", "name": "Operational Efficiency"},
+      {"id": "29", "label": "Impact", "name": "Data-Driven Decision Making"},
+      {"id": "30", "label": "Impact", "name": "Strategic Innovation"}
+    ],
+    "edges": [
+      {"source": "1", "target": "4", "relationship": "includes_level"},
+      {"source": "1", "target": "5", "relationship": "includes_level"},
+      {"source": "1", "target": "6", "relationship": "includes_level"},
+      {"source": "1", "target": "7", "relationship": "includes_level"},
+      
+      {"source": "2", "target": "4", "relationship": "includes_level"},
+      {"source": "2", "target": "5", "relationship": "includes_level"},
+      {"source": "2", "target": "6", "relationship": "includes_level"},
+      {"source": "2", "target": "7", "relationship": "includes_level"},
+      
+      {"source": "3", "target": "4", "relationship": "includes_level"},
+      {"source": "3", "target": "5", "relationship": "includes_level"},
+      {"source": "3", "target": "6", "relationship": "includes_level"},
+      {"source": "3", "target": "7", "relationship": "includes_level"},
+      
+      {"source": "1", "target": "8", "relationship": "requires"},
+      {"source": "1", "target": "9", "relationship": "requires"},
+      
+      {"source": "2", "target": "11", "relationship": "requires"},
+      {"source": "2", "target": "12", "relationship": "requires"},
+      {"source": "2", "target": "13", "relationship": "requires"},
+      
+      {"source": "3", "target": "10", "relationship": "requires"},
+      {"source": "3", "target": "12", "relationship": "requires"},
+      
+      {"source": "1", "target": "14", "relationship": "follows_principle"},
+      {"source": "1", "target": "15", "relationship": "follows_principle"},
+      {"source": "2", "target": "16", "relationship": "follows_principle"},
+      
+      {"source": "1", "target": "17", "relationship": "requires_skill"},
+      {"source": "1", "target": "18", "relationship": "requires_skill"},
+      {"source": "1", "target": "21", "relationship": "requires_skill"},
+      
+      {"source": "2", "target": "18", "relationship": "requires_skill"},
+      {"source": "2", "target": "23", "relationship": "requires_skill"},
+      
+      {"source": "3", "target": "18", "relationship": "requires_skill"},
+      {"source": "3", "target": "19", "relationship": "requires_skill"},
+      {"source": "3", "target": "20", "relationship": "requires_skill"},
+      
+      {"source": "1", "target": "25", "relationship": "communicates_with"},
+      {"source": "2", "target": "26", "relationship": "communicates_with"},
+      {"source": "3", "target": "27", "relationship": "communicates_with"},
+      
+      {"source": "1", "target": "28", "relationship": "impacts"},
+      {"source": "2", "target": "29", "relationship": "impacts"},
+      {"source": "3", "target": "30", "relationship": "impacts"}
+    ]
+  }

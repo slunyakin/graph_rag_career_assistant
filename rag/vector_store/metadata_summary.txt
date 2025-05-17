@@ -1,0 +1,31 @@
+Vector Store Summary
+===================
+
+Created: 2025-05-13T22:47:36.816397
+Total Documents: 11
+
+Document Types:
+- roles: 4
+- learning_paths: 2
+- skills: 5
+
+Chunk Statistics:
+- Average Size: 1386.73 characters
+- Min Size: 990 characters
+- Max Size: 2073 characters
+- Total Chunks: 11
+
+Embedding Model: sentence-transformers/all-MiniLM-L6-v2
+
+Document Sources:
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/learning_paths/bi_to_data_engineer.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/learning_paths/data_analyst_to_ml_engineer.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/roles/bi_engineer.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/roles/data_analyst.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/roles/data_engineer.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/roles/machine_learning_engineer.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/skills/data_warehousing.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/skills/machine_learning.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/skills/power_bi.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/skills/python.md
+- /Users/slunyakin/Projects/ragenv/graph_rag_career_assistant/data/skills/sql.md

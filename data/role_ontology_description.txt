@@ -1,0 +1,12 @@
+Ontology graph implementation Description
+
+The ontology includes the following relationships and nodes:
+	1.	Role: Represents the role in organisation e.g. “Data Engineer.”
+	2.	Level: Represents expertise levels: Junior, Intermediate, Senior, and Principal.
+	3.	Responsibilities: Duties and tasks specific to each level.
+	4.	Core Principles: Guiding values and practices for all levels.
+	5.	Skills: Technical and soft skills required at each level.
+	6.	Scope of Communication: Defines the stakeholders and interaction levels for each expertise.
+	7.	Impact: The scale and outcomes of the contributions at each level.
+
+The graph connects these nodes with directional edges, showing relationships such as “requires,” “follows,” “impacts,” and “communicates_with.”
