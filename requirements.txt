@@ -6,4 +6,5 @@ faiss-cpu>=1.7.4
 neo4j>=5.0.0
 python-dotenv>=1.0.0
 streamlit>=1.30.0
-huggingface-hub>=0.20.0 
+huggingface-hub>=0.20.0
+-e . 

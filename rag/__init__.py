@@ -1,3 +1,3 @@
 """
-RAG (Retrieval-Augmented Generation) pipeline for career assistant.
+RAG (Retrieval-Augmented Generation) module for career assistant.
 """ 
